@@ -12,4 +12,4 @@ REQUIREMENTS
 HOW TO USE
 1. Download the source code and extract the entire contents of the folder to your Minecraft: Bedrock Editon Dedicated Server folder.
 2. There should be an empty folder named updatetemp DO NOT DELETE THIS FOLDER.
-3. Create a basic task in the Task Scheduler program to run the script at 3:00AM (or whenever you want it to check for updates)
+3. Create a task in the Task Scheduler program to run the script at 3:00AM (or whenever you want it to check for updates)
