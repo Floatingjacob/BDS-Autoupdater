@@ -13,6 +13,9 @@ import sys
 def download_and_extract_to_directory(url, button_aria_label):
 
     try:
+        def terminate(ProcessName):
+            os.system('taskkill /IM "' + ProcessName + '" /F')
+        terminate('bedrock_server.exe')
         subprocess.check_call(["clean.bat"])
         script_directory = os.path.dirname(os.path.abspath(sys.argv[0]))
         download_directory = os.path.join(script_directory, "updatetemp")
