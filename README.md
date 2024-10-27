@@ -1,7 +1,8 @@
 # BDS-Autoupdater
 This python script will automatically update your Minecraft: Bedrock Editon Dedicated Server
 
-NOTE
+NOTE(S)
+If for any reason your pc blocks the download, open up command prompt and type (or paste) (curl -o BDS-Autoupdater.zip https://codeload.github.com/Floatingjacob/BDS-Autoupdater/zip/refs/heads/main) into it and hit enter. then, extract the zip folder's contents into your bedrock server folder.
 YOU MUST HAVE AN EXISTING DEDICATED SERVER SET UP AND RUNNING BEFORE YOU RUN THS SCRIPT, OTHERWISE THIS SCRIPT WILL NOT WORK.
 
 REQUIREMENTS
