@@ -1,1 +1,0 @@
-echo y|del updatetemp\*.zip
